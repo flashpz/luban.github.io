@@ -1,0 +1,40 @@
+/* 自定义页脚样式 */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    margin: 15px 0;
+    text-align: center;
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .col-lg-8 {
+    float: none;
+    margin: 0 auto;
+}
+
+/* 调整 iframe 位置 */
+footer iframe {
+    vertical-align: middle;
+    margin-left: 5px;
+} 
